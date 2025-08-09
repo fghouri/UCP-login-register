@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+body { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Full viewport height */
+    margin: 0; /* Removes default body margin */
+    font-family: "Poppins", sans-serif;
+    background-image:url(login-register.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+} 
+.box > div {
+    font-family: inherit;
+
+}
+.sign-in {
+    font-size: 24px;
+}
+
+.box {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    padding: 30px 120px 30px 20px;
+    color:black;
+    width: 320px; 
+}
+
+input, button {
+    margin: 10px;
+    min-height: 36px;
+    width: 130%;
+    padding: 10px 5px 10px;
+    font-size: 20px; 
+    box-sizing: border-box;
+}
+
+.btn {
+    background-color: #1e88e5;
+    height: 50px;
+    color: white;
+    border-radius: 2px;
+    border-style: hidden;
+}
+
+.msg {
+    text-align: center;
+    color: grey;
+}
+
+#error-msg {
+    color:red;
+    /*visibility: hidden;*/
+    margin: 10px;
+    padding: 0px 10px 0px 10px;
+    border-left: 5px solid red;
+    background-color: black;
+}
+
+.login-register-msg {
+    font-family: inherit;
+    color:red;
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue;
+}
+
